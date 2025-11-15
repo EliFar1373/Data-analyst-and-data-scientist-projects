@@ -1,0 +1,74 @@
+https://forexsb.com/historical-forex-data
+
+
+Classification task: Predict directional signal (up/down) for the next day’s close.
+
+Regression task: Predict next-day return (numeric value)
+
+
+Step 1: Compute the smoothing factor α
+
+For an exponential moving average,
+
+𝛼
+=
+2
+span
++
+1
+α=
+span+1
+2
+	​
+
+
+So for span=8:
+
+𝛼
+=
+2
+8
++
+1
+=
+0.2222
+α=
+8+1
+2
+	​
+
+=0.2222
+⚙️ Step 2: Apply the EMA formula recursively
+𝐸
+𝑀
+𝐴
+𝑡
+=
+𝛼
+×
+Close
+𝑡
++
+(
+1
+−
+𝛼
+)
+×
+𝐸
+𝑀
+𝐴
+𝑡
+−
+1
+EMA
+t
+	​
+
+=α×Close
+t
+	​
+
++(1−α)×EMA
+t−1
+	​

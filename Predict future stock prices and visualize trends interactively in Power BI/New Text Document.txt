@@ -1,0 +1,9 @@
+Predict future stock prices and visualize trends interactively in Power BI.
+
+Goal: Predict future stock prices and visualize trends interactively in Power BI.
+Tech Stack
+
+SQL – store & query historical stock data
+
+Python – for data cleaning + building prediction model
+Power BI – to visualize predictions, moving averages, and portfolio performance
