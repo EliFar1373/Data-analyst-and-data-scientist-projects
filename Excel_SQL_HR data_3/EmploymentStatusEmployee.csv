@@ -1,0 +1,4 @@
+EmploymentStatus,count(*)
+Active,207
+"Voluntarily Terminated",88
+"Terminated for Cause",16

@@ -1,0 +1,6 @@
+MaritalDesc,count(*)
+Single,137
+Married,124
+Divorced,30
+Widowed,8
+Separated,12

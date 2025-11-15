@@ -1,0 +1,8 @@
+EmploymentStatus,EmpStatusID,TermReason,EmpNum
+"Terminated for Cause",4,attendance,6
+"Terminated for Cause",4,performance,3
+"Terminated for Cause",4,"Learned that he is a gangster",1
+"Terminated for Cause",4,"no-call, no-show",3
+"Terminated for Cause",1,"Fatal attraction",1
+"Terminated for Cause",1,"no-call, no-show",1
+"Terminated for Cause",4,"gross misconduct",1

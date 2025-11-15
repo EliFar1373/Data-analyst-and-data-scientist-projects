@@ -1,0 +1,14 @@
+EmploymentStatus,EmpStatusID,TermReason,EmpNum
+"Voluntarily Terminated",5,"career change",9
+"Voluntarily Terminated",5,hours,8
+"Voluntarily Terminated",5,"return to school",5
+"Voluntarily Terminated",5,"Another position",20
+"Voluntarily Terminated",5,unhappy,14
+"Voluntarily Terminated",5,retiring,4
+"Voluntarily Terminated",5,"relocation out of area",5
+"Voluntarily Terminated",5,"more money",11
+"Voluntarily Terminated",5,military,4
+"Voluntarily Terminated",5,"maternity leave - did not return",3
+"Voluntarily Terminated",5,performance,1
+"Voluntarily Terminated",5,"medical issues",3
+"Voluntarily Terminated",5,attendance,1

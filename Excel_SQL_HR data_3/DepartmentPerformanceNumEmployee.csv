@@ -1,0 +1,18 @@
+Department,PerformanceScore,count(*)
+"Admin Offices","Fully Meets",9
+"Executive Office","Fully Meets",1
+IT/IS,Exceeds,6
+IT/IS,"Fully Meets",42
+IT/IS,"Needs Improvement",1
+IT/IS,PIP,1
+"Production       ",Exceeds,27
+"Production       ","Fully Meets",159
+"Production       ","Needs Improvement",15
+"Production       ",PIP,8
+Sales,Exceeds,2
+Sales,"Fully Meets",24
+Sales,"Needs Improvement",1
+Sales,PIP,4
+"Software Engineering",Exceeds,2
+"Software Engineering","Fully Meets",8
+"Software Engineering","Needs Improvement",1
