@@ -1,0 +1,19 @@
+weather_app/
+│── app.py
+│── weather_model.pkl
+│── weather_scaler.pkl
+│── templates/
+│     └── index.html
+│── static/
+      └── style.css (optional)
+
+
+'Feels Like (°C)', 'Humidity (%)', 'Cloud Cover (%)', 'Visibility (km)', 'Location_index'
+['New York',
+ 'London',
+ 'Tokyo',
+ 'Paris',
+ 'Sydney',
+ 'Dubai',
+ 'Rome',
+ 'Hong Kong']

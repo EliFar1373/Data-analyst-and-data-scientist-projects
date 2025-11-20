@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Predict Temperature</h2>
+    <form action="/predict" method="POST">
+
+        <label for="humidity">Humidity (%)</label>
+        <input type="number" name="humidity" id="humidity" required>
+
+        <label for="visibility">Visibility (km)</label>
+        <input type="number" name="visibility" id="visibility" required>
+
+        <label for="feels_like">Feels Like (°C)</label>
+        <input type="number" name="feels_like" id="feels_like" required>
+
+        <label for="cloud_cover">Cloud Cover (%)</label>
+        <input type="number" name="cloud_cover" id="cloud_cover" required>
+
+        <label for="location">Location</label>
+        <select name="location" id="location" required>
+            <option value="New York">New York</option>
+            <option value="London">London</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="Paris">Paris</option>
+            <option value="Sydney">Sydney</option>
+            <option value="Dubai">Dubai</option>
+            <option value="Rome">Rome</option>
+            <option value="Hong Kong">Hong Kong</option>
+        </select>
+
+        <br><br>
+        <button type="submit">Predict Temperature</button>
+    </form>
+
+    <h2>Weather Forecast</h2>
+    
+    {% if prediction %}
+        <h3>Prediction Temperature:{{prediction}} °C</h3>
+
+    {% endif %}
+
+
+
+</body>
+</html>
