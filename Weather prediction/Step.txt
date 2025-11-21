@@ -1,12 +1,17 @@
+
+
+
 weather_app/
-│── app.py
-│── weather_model.pkl
-│── weather_scaler.pkl
+│── backend/
+│   ├── app.py                  # exported from Jupyter
+│   ├── weader_model_reg.pkl
+│   ├── weader_model_lasso.pkl
+│   ├── weader_model_ridge.pkl
+│   ├── weather_scaler.pkl
 │── templates/
-│     └── index.html
+│   └── index.html 
 │── static/
       └── style.css (optional)
-
 
 'Feels Like (°C)', 'Humidity (%)', 'Cloud Cover (%)', 'Visibility (km)', 'Location_index'
 ['New York',
@@ -17,3 +22,22 @@ weather_app/
  'Dubai',
  'Rome',
  'Hong Kong']
+
+
+cd WeatherVision-ML/backend
+
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+pip install flask pandas scikit-learn joblib
+python app.py
+pip install seaborn
+
+
+
+
+cd /backend
+# Windows
+.\venv\Scripts\activate
+python app.py
+go to  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
